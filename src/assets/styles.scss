@@ -6,6 +6,17 @@
 
 html {
 	font-size: 18px;
+	min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	&.light{
+		background-color: white;
+	}
+	&.dark {
+		background-color: black;
+	}
 }
 
 /* Layout */
@@ -18,14 +29,27 @@ body {
 	line-height: 1.5;
 }
 
+.light body {
+	color: black;
+	a {
+		color: #338413;
+	}
+}
+.dark body {
+	color: white;
+	a {
+		color: #33ff33;
+	}
+}
+
 header,
-footer {
-	padding: 1rem;
+footer,
+main {
+	padding: 0 1rem 1rem;
 }
 
 main {
 	flex: 1;
-	padding: 1rem;
 }
 
 section {
@@ -38,10 +62,15 @@ nav ul {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 1rem;
+	margin-bottom: 0;
 }
 
 nav a {
 	text-decoration: none;
+}
+
+h1, h2, h3 {
+	line-height: 1.2;
 }
 
 /* Responsive */
