@@ -1,16 +1,16 @@
 {
-	"name": "codekit-project",
+	"name": "dave-gentrys-site",
 	"version": "1.0.0",
-	"description": "CodeKit created this starter package.json file. You should customize it appropriately. (If you intend to publish this project on npm, add an entry in the 'repository' field and remove the 'private' attribute, below.)",
+	"description": "A simple project using Eleventy",
 	"scripts": {
 		"dev": "npx @11ty/eleventy --serve",
 		"build": "npx @11ty/eleventy",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": "",
+	"author": "Peter Mumford",
 	"license": "UNLICENSED",
 	"repository": {},
-	"private": true,
+	"private": false,
 	"dependencies": {
 		"@11ty/eleventy": "^1.0.2",
 		"@quasibit/eleventy-plugin-sitemap": "^2.2.0"
