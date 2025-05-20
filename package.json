@@ -1,13 +1,18 @@
 {
-  "name": "codekit-project",
-  "version": "1.0.0",
-  "description": "CodeKit created this starter package.json file. You should customize it appropriately. (If you intend to publish this project on npm, add an entry in the 'repository' field and remove the 'private' attribute, below.)",
-  "scripts": {},
-  "author": "",
-  "license": "UNLICENSED",
-  "repository": {},
-  "private": true,
-  "devDependencies": {
-    "sitemap-generator": "^8.5.1"
-  }
+	"name": "codekit-project",
+	"version": "1.0.0",
+	"description": "CodeKit created this starter package.json file. You should customize it appropriately. (If you intend to publish this project on npm, add an entry in the 'repository' field and remove the 'private' attribute, below.)",
+	"scripts": {
+		"dev": "npx @11ty/eleventy --serve",
+		"build": "npx @11ty/eleventy",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "UNLICENSED",
+	"repository": {},
+	"private": true,
+	"dependencies": {
+		"@11ty/eleventy": "^1.0.2",
+		"@quasibit/eleventy-plugin-sitemap": "^2.2.0"
+	}
 }

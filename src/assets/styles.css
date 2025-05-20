@@ -1,8 +1,11 @@
 /* Reset */
 * {
-	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+html {
+	font-size: 18px;
 }
 
 /* Layout */
@@ -10,6 +13,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+	background-position: top left;
+	background-size: cover;
+	line-height: 1.5;
 }
 
 header,
@@ -20,6 +26,10 @@ footer {
 main {
 	flex: 1;
 	padding: 1rem;
+}
+
+section {
+	max-width: 40rem;
 }
 
 /* Navigation */
