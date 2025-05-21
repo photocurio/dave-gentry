@@ -7,7 +7,7 @@
 html {
 	font-size: 18px;
 	min-height: 100vh;
-    background-position: center center;
+    background-position: center left;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -73,6 +73,14 @@ h1, h2, h3 {
 	line-height: 1.2;
 }
 
+.triskelion{
+	vertical-align: bottom;
+	width: 70px;
+	height: auto;
+}
+.dark .triskelion{
+	filter: invert(1);
+}
 /* Responsive */
 @media (max-width: 600px) {
 	nav ul {
