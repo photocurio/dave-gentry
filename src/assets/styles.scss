@@ -122,6 +122,7 @@ ul {
 }
 .dark .triskelion{
 	filter: invert(1);
+	mix-blend-mode: screen;
 }
 .grey .triskelion{
 	mix-blend-mode: multiply;
