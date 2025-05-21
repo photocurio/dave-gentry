@@ -64,8 +64,15 @@ nav ul {
 	flex-wrap: wrap;
 	gap: 1rem;
 	margin-bottom: 0;
+	li {
+		text-transform: uppercase;
+		font-size: 90%;
+	}
 }
 
+.light nav ul li {
+	font-weight: bold;
+}
 nav a {
 	text-decoration: none;
 }
@@ -75,8 +82,10 @@ h1, h2, h3 {
 	text-align: center;
 }
 
-.company .triskelion {
-	width: 45px;
+.company {
+	.triskelion {
+		width: 45px;
+	}
 }
 .triskelion{
 	vertical-align: bottom;
