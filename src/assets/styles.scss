@@ -56,7 +56,9 @@ body {
 		border-color: #777
 	}
 }
-header,
+header {
+	padding: 0 1rem 0 2rem;
+}
 footer,
 main {
 	padding: 0 1rem 1rem 2rem;
@@ -76,7 +78,8 @@ nav ul {
 	display: flex;
 	flex-wrap: wrap;
 	border-bottom: 1px solid #bbb;
-	padding-bottom: .5rem;
+	border-top: 1px solid #bbb;
+	padding: .5rem 0;
 	li {
 		text-transform: uppercase;
 		font-size: 90%;
@@ -91,11 +94,11 @@ nav a {
 	text-decoration: none;
 }
 
-h1, h2, h3, footer p {
+h1, h2, h3, footer p, .subhead {
 	line-height: 1.2;
 	text-align: center;
-	margin-left: -2rem;
 }
+
 ul {
 	padding-left: 2rem;
 }

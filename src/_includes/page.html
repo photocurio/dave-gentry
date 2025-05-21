@@ -15,11 +15,9 @@
 			{% if title == "Dave Gentry Custom Boats" %}
 			<h1><img src="pics/triskelion7.jpg" class="triskelion" />{{title}}</h1>
 			<h2>&mdash; Extraordinary Boats &mdash;</h2>
-			<em class="subhead">{{subhead}}</em>
+			<p class="subhead"><em>{{subhead}}</em></p>
 			{% else %}
 			<h3 class="company"><img src="pics/triskelion7.jpg" class="triskelion" />Dave Gentry Custom Boats</h3>
-			<h1>{{title}}</h1>
-			<em class="subhead">{{subhead}}</em>
 			<nav>
 				<ul>
 					<li><a href="index.html">Home</a></li>
@@ -33,6 +31,10 @@
 					<li><a href="CustomBuildspage.html">Custom Boats</a></li>
 				</ul>
 			</nav>
+			<h1>{{title}}</h1>
+			{% if subhead %}
+			<p class="subhead"><em>{{subhead}}</em></p>
+			{% endif %}
 			{% endif %}
 		</div>
 	</header>
