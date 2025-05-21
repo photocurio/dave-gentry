@@ -127,6 +127,12 @@ ul {
 	mix-blend-mode: multiply;
 }
 
+iframe[src*="youtube.com"]{
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
 	nav ul {
