@@ -11,28 +11,30 @@
 
 <body>
 	<header>
-		{% if title == "Dave Gentry Custom Boats" %}
-		<h1><img src="pics/triskelion7.jpg" class="triskelion" />{{title}}</h1>
-		<h2>&mdash; Extraordinary Boats &mdash;</h2>
-		<em class="subhead">{{subhead}}</em>
-		{% else %}
-		<h3 class="company"><img src="pics/triskelion7.jpg" class="triskelion" />Dave Gentry Custom Boats</h3>
-		<h1>{{title}}</h1>
-		<em class="subhead">{{subhead}}</em>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="About.html">About</a></li>
-				<li><a href="NewHomeBuilderPlans.html">Catalog</a></li>
-				<li><a href="Planspage.html">Plans and Kits</a></li>
-				<li><a href="What%27s_New.html">News</a></li>
-				<li><a href="infopage.html">Info</a></li>
-				<li><a href="Gallery.html">Gallery</a></li>
-				<li><a href="Links.html">Links</a></li>
-				<li><a href="CustomBuildspage.html">Custom Boats</a></li>
-			</ul>
-		</nav>
-		{% endif %}
+		<div class="header-rows">
+			{% if title == "Dave Gentry Custom Boats" %}
+			<h1><img src="pics/triskelion7.jpg" class="triskelion" />{{title}}</h1>
+			<h2>&mdash; Extraordinary Boats &mdash;</h2>
+			<em class="subhead">{{subhead}}</em>
+			{% else %}
+			<h3 class="company"><img src="pics/triskelion7.jpg" class="triskelion" />Dave Gentry Custom Boats</h3>
+			<h1>{{title}}</h1>
+			<em class="subhead">{{subhead}}</em>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="About.html">About</a></li>
+					<li><a href="NewHomeBuilderPlans.html">Catalog</a></li>
+					<li><a href="Planspage.html">Plans and Kits</a></li>
+					<li><a href="Whats_New.html">News</a></li>
+					<li><a href="infopage.html">Info</a></li>
+					<li><a href="Gallery.html">Gallery</a></li>
+					<li><a href="Links.html">Links</a></li>
+					<li><a href="CustomBuildspage.html">Custom Boats</a></li>
+				</ul>
+			</nav>
+			{% endif %}
+		</div>
 	</header>
 	<main>
 		<section>
