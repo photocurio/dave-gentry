@@ -4,15 +4,22 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="robots" content="noindex, nofollow" />
 	<title>{{title}}</title>
 	<link rel="stylesheet" href="/assets/styles.css" />
 </head>
 
 <body>
 	<header>
+		{% if title == "Dave Gentry Custom Boats" %}
+		<h1><img src="pics/triskelion7.jpg" class="triskelion" />{{title}}</h1>
+		<h2>&mdash; Extraordinary Boats &mdash;</h2>
+		<em class="subhead">{{subhead}}</em>
+		{% else %}
 		<h3 class="company"><img src="pics/triskelion7.jpg" class="triskelion" />Dave Gentry Custom Boats, LC</h3>
 		<h1>{{title}}</h1>
-		<em>{{subhead}}</em>
+		<em class="subhead">{{subhead}}</em>
+		{% endif %}
 		<nav>
 			<ul>
 				<li><a href="index.html">Home</a></li>
