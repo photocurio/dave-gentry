@@ -1,0 +1,89 @@
+<script>
+	document.addEventListener( "DOMContentLoaded", () => {
+		const dropdownButtons = document.querySelectorAll( ".dropdown-btn" )
+
+		dropdownButtons.forEach( ( button ) => {
+			button.addEventListener( "click", () => {
+				// Close all dropdown containers instantly
+				const allDropdowns = document.querySelectorAll( ".dropdown-container" )
+				allDropdowns.forEach( ( dropdown ) => {
+					if ( dropdown !== button.nextElementSibling ) {
+						dropdown.style.maxHeight = null // Collapse instantly
+					}
+				} )
+
+				// Toggle the dropdown container below the clicked button
+				const dropdown = button.nextElementSibling
+				if ( dropdown.style.maxHeight ) {
+					dropdown.style.maxHeight = null // Collapse instantly
+				} else {
+					dropdown.style.maxHeight = dropdown.scrollHeight + "px" // Expand with animation
+				}
+			} )
+		} )
+	} );
+</script>
+<div class="sidenav">
+	<button class="dropdown-btn">Sail
+	</button>
+	<div class="dropdown-container">
+		<a href="Melonseed.html">Light Melonseed</a>
+		<a href="Chautauqua.html">Chautauqua sailing canoe</a>
+		<a href="Annabelle.html">Annabelle Skiff</a>
+		<a href="PRP.html">Piankatank River Pram</a>
+		<a href="splinter.html">Splinter outrigger</a>
+		<a href="C17page.html">Chuckanut 17 kayak</a>
+	</div>
+	<button class="dropdown-btn">Row
+	</button>
+	<div class="dropdown-container">
+		<a href="Ruthpage.html">Ruth</a>
+		<a href="Whitehallpage.html">Shenandoah Whitehall</a>
+		<a href="RacerXpage.html">Racer X</a>
+		<a href="SPeapodpage.html">Shenandoah Peapod</a>
+		<a href="Annabelle.html">Annabelle Skiff</a>
+		<a href="PRP.html">Piankatank River Pram</a>
+		<a href="splinter.html">Splinter outrigger</a>
+		<a href="C17page.html">Chuckanut 17 kayak</a>
+		<a href="BigAloha.html">Big Aloha SUP</a>
+	</div>
+	<button class="dropdown-btn">Kayaks
+	</button>
+	<div class="dropdown-container">
+		<a href="C12.html">Chuckanuts 10,12 and 12S</a>
+		<a href="C15.html">Chuckanut 15</a>
+		<a href="C17page.html">Chuckanut 17 kayak</a>
+		<a href="Kidyakpage.html">Kidyak</a>
+	</div>
+	<button class="dropdown-btn">Sea Kayaks
+	</button>
+	<div class="dropdown-container">
+		<a href="Mobjack_Bay.html">Mobjack Bay</a>
+		<a href="DiskoBaypage.html">Disko Bay and Disko Dreadnought</a>
+		<a href="BaffinBay.html">Baffin Bay</a>
+	</div>
+	<button class="dropdown-btn">Canoes
+	</button>
+	<div class="dropdown-container">
+		<a href="New_Wee_Lassie.html">Wee Lassie solo canoe</a>
+		<a href="Wicomico.html">Great Wicomico</a>
+		<a href="PH13page.html">PH13 solo canoe</a>
+		<a href="IGOpage.html">Rushton's IGO</a>
+		<a href="Indian_Creek.html">Indian Creek</a>
+		<a href="splinter.html">Splinter outrigger</a>
+		<a href="Chautauqua.html">Chautauqua sailing canoe</a>
+	</div>
+	<button class="dropdown-btn">Paddleboards
+	</button>
+	<div class="dropdown-container">
+		<a href="Alohapage.html">Aloha</a>
+		<a href="BigAloha.html">Big Aloha</a>
+		<a href="Lanui.html">Lanui</a>
+		<a href="Boardyakpage.html">Boardyak</a>
+	</div>
+	<button class="dropdown-btn">Motor
+	</button>
+	<div class="dropdown-container">
+		<a href="Indian_Creek.html">Indian Creek motor canoe</a>
+	</div>
+</div>

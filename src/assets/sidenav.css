@@ -1,0 +1,49 @@
+.sidenav {
+  width: 100%; /* Adjust as needed */
+  max-width: 300px; /* Optional: Limit the width */
+  background-color: #333;
+  color: white;
+}
+
+.sidenav button.dropdown-btn {
+  width: 100%;
+  background-color: #444;
+  color: white;
+	font-family: Times;
+  border: none;
+  padding: 0.75rem;
+  text-align: left;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.sidenav button.dropdown-btn:hover {
+  background-color: #555;
+}
+
+.sidenav .dropdown-container {
+  max-height: 0; /* Initially hidden */
+  overflow: hidden; /* Prevent content from overflowing */
+  background-color: #222;
+  transition: max-height 0.3s ease-out; /* Smooth transition */
+  padding: 0;
+}
+
+.sidenav .dropdown-container a {
+  display: block;
+  color: #ddd;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.sidenav .dropdown-container a:hover {
+  color: #fff;
+}
+
+.sidenav .dropdown-container.open {
+  max-height: 500px; /* Set a maximum height large enough for the content */
+  padding: 0.5rem 1rem; /* Add padding when open */
+}
