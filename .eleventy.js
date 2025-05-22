@@ -4,7 +4,6 @@ const path = require( "path" )
 
 
 module.exports = ( config ) => {
-	config.addPassthroughCopy( 'src/assets' )
 	config.addPassthroughCopy( 'src/pics' )
 	config.addTemplateFormats( "scss" )
 	config.addExtension( "scss", {
