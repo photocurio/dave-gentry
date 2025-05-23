@@ -2,6 +2,9 @@
   width: 100%; // Adjust as needed
   max-width: 160px; // Optional: Limit the width
   background-color: #333;
+  @media (max-width: 600px) {
+    max-width: 100%; // Full width on smaller screens
+  }
 
   button.dropdown-btn {
     width: 100%;

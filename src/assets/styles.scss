@@ -168,6 +168,44 @@ iframe[src*="youtube.com"]{
 	margin: 0;
 	// display: inline;
 }
+
+// ...existing code...
+
+.highlight {
+	color: #fff;
+	background-color: #993300;
+	font-weight: bold;
+	padding: 0.5rem;
+	margin: 1rem 0;
+  }
+  
+  figure {
+	margin: 2rem 0;
+	
+	img {
+	  max-width: 100%;
+	  height: auto;
+	}
+  }
+  
+  .specs {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+	align-items: start;
+  }
+  
+  .page-nav {
+	display: flex;
+	gap: 2rem;
+	justify-content: center;
+	margin-top: 2rem;
+	
+	a {
+	  font-weight: bold;
+	  font-size: 1.2rem;
+	}
+  }
   
 /* Responsive */
 @media (max-width: 600px) {
