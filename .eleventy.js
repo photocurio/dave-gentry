@@ -6,7 +6,7 @@ module.exports = ( config ) => {
 	config.addPassthroughCopy( 'src/pics' )
 	config.addPassthroughCopy( 'src/admin' )
 	config.addPassthroughCopy( 'src/assets/*.js' )
-	config.addPassthroughCopy( 'src/favicon.jpg' )
+	config.addPassthroughCopy( 'src/favicon2.jpg' )
 	config.addTemplateFormats( 'scss' )
 	config.addExtension( 'scss', {
 		outputFileExtension: 'css',
