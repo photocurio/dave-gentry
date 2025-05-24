@@ -14,6 +14,6 @@ collections:
       - { label: "Subhead", name: "subhead", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Background Image", name: "backgroundImg", widget: "image" }
-      - { lable: "Permalink", name: "permalink", widget: "string" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Style", name: "style", widget: "select", options: ["light", "dark"] }
       - { label: "Layout", name: "layout", widget: "select", options: ["default", "page.html"] }
