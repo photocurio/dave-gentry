@@ -5,7 +5,8 @@ media_folder: pics
 collections:
   - name: "pages"
     label: "Pages"
-    folder: "/"
+    label_singular: "Page"
+    folder: ""
     create: true
     slug: "{{slug}}"
     fields:
