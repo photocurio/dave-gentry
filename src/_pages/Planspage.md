@@ -10,11 +10,7 @@ layout: page.html
 <p>
 	All plans sales continue as usual, through Duckworks.com, and when you order below you will be redirected there.
 	Kits, however, are not currently available, as I am still on hiatus/sabbatical.</p>
-<p>Likewise, I am rarely available to
-	answer questions,
-	for which I apologize. Your best bet is to ask your question on the Duckworks facebook page,
-	where there are many knowledgeable builders of my boats.
-</p>
+<p>Likewise, I am rarely available to answer questions, for which I apologize. Your best bet is to ask your question on the Duckworks facebook page, where there are many knowledgeable builders of my boats.</p>
 <p>Thank you for your patience, and have fun with your build!</p>
 <h3>What you get:</h3>
 <p>
@@ -25,23 +21,14 @@ layout: page.html
 	succeed, and the plans reflect that.
 </p>
 <p>Measurements are in both English and metric.</p>
-<p>
-	<strong>Instant downloads</strong> are now available for all of our designs. Electronic plans are $10 to $20USD less
-	than paper plans,
-	there is no shipping charge, and they arrive right away. The caveat is that you will have to have the file of
-	templates printed out on
-	a large format printer - which most every local print shop will have - for a nominal fee.
-</p>
+<p><strong>Instant downloads</strong> are now available for all of our designs. Electronic plans are $10 to $20USD less than paper plans, there is no shipping charge, and they arrive right away. The caveat is that you will have to have the file of templates printed out on a large format printer - which most every local print shop will have - for a nominal fee.</p>
 <p>All plan sets include full sized templates for most all the plywood parts - frames, stems, transoms, knees, skeg, etc. Just glue to a sheet of plywood and saw along the lines - no lofting required, and no worries about having misread a bunch of measurements.</p>
 <h3>Frame Kits</h3>
 <img src="/pics/FrameKit.jpg" alt="PLywood frame kit" width="400" height="300" style="float:right; margin: 10px 10px 10px 10px; border: 1px solid #000000;" />
 <p>
 	Frame kits include the building guide, pre-cut frames, transoms, knees, etc,
 	and all the fabric needed to skin your boat. Due to shipping costs and difficulties kits do not include the
-	longitudinal
-	stringers (Gunwales, chines, keel, et al.), or spars, nor epoxy or fasteners, paint, etc. Sailboat kits do include
-	wood for the foils,
-	but do not include sails.
+	longitudinal stringers (Gunwales, chines, keel, et al.), or spars, nor epoxy or fasteners, paint, etc. Sailboat kits do include wood for the foils, but do not include sails.
 </p>
 <p>
 	Some kits have optional components, so all kits are ordered directly. Send an email to GentryCustomBoats@yahoo.com
