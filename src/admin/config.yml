@@ -1,12 +1,12 @@
 backend:
   name: git-gateway
   repo: photocurio/dave-gentry
-media_folder: pics
+media_folder: src/pics
 collections:
   - name: "pages"
     label: "Pages"
     label_singular: "Page"
-    folder: ""
+    folder: "src/_pages"
     create: true
     slug: "{{slug}}"
     fields:
