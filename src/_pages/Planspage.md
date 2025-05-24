@@ -1,9 +1,9 @@
 ---
-permalink: Planspage.html
-layout: page.html
 title: Kits and Plans
-style: dark
 backgroundImg: /pics/opt/Background1a.jpg
+permalink: Planspage.html
+style: dark
+layout: page.html
 ---
 <p>Scroll down, or click here to order.</p>
 <p><strong style="color:yellow">November 2022 news:</strong></p>
@@ -32,14 +32,9 @@ backgroundImg: /pics/opt/Background1a.jpg
 	templates printed out on
 	a large format printer - which most every local print shop will have - for a nominal fee.
 </p>
-<p>
-	All plan sets include full sized templates for most all the plywood parts - frames, stems, transoms, knees, skeg,
-	etc.
-	Just glue to a sheet of plywood and saw along the lines - no lofting required, and no worries about having misread a
-	bunch of measurements.
-</p>
+<p>All plan sets include full sized templates for most all the plywood parts - frames, stems, transoms, knees, skeg, etc. Just glue to a sheet of plywood and saw along the lines - no lofting required, and no worries about having misread a bunch of measurements.</p>
 <h3>Frame Kits</h3>
-<img src="pics/FrameKit.jpg" alt="PLywood frame kit" width="400" height="300" style="float:right; margin: 10px 10px 10px 10px; border: 1px solid #000000;" />
+<img src="/pics/FrameKit.jpg" alt="PLywood frame kit" width="400" height="300" style="float:right; margin: 10px 10px 10px 10px; border: 1px solid #000000;" />
 <p>
 	Frame kits include the building guide, pre-cut frames, transoms, knees, etc,
 	and all the fabric needed to skin your boat. Due to shipping costs and difficulties kits do not include the
