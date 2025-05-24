@@ -13,9 +13,9 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Subhead", name: "subhead", widget: "text" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Background Image", name: "backgroundImg", widget: "image" }
+      - { label: "Subhead", name: "subhead", widget: "text", required: false, rows: 2 }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Background Image", name: "backgroundImg", widget: "image", required: false }
       - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Style", name: "style", widget: "select", options: ["light", "dark"] }
       - { label: "Layout", name: "layout", widget: "select", options: ["default", "page.html"] }
