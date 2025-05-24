@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   repo: photocurio/dave-gentry
+  branch: main-fork
 media_folder: "src/pics"
 public_folder: "/pics"
 collections:
