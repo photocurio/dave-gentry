@@ -2,13 +2,13 @@ const sitemap = require( "@quasibit/eleventy-plugin-sitemap" )
 const sass = require( "sass" )
 const path = require( "path" )
 
-
 module.exports = ( config ) => {
 	config.addPassthroughCopy( 'src/pics' )
 	config.addPassthroughCopy( 'src/admin' )
-	config.addTemplateFormats( "scss" )
-	config.addExtension( "scss", {
-		outputFileExtension: "css",
+	config.addPassthroughCopy( 'src/assets/*.js' )
+	config.addTemplateFormats( 'scss' )
+	config.addExtension( 'scss', {
+		outputFileExtension: 'css',
 		compile: async function ( inputContent, inputPath ) {
 			let parsed = path.parse( inputPath )
 			if ( parsed.name.startsWith( "_" ) ) return
@@ -30,6 +30,7 @@ module.exports = ( config ) => {
 	return {
 		dir: {
 			input: 'src',
+			includes: '_includes',
 		},
 	}
 }
