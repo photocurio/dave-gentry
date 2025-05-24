@@ -51,16 +51,17 @@
 		<p>&copy; 2025 Dave Gentry</p>
 	</footer>
 	<script>
-	if (window.netlifyIdentity) {
-		window.netlifyIdentity.on('init', (user) => {
-		if (!user) {
-			window.netlifyIdentity.on('login', () => {
-			document.location.href = '/admin/';
-			});
+		if ( window.netlifyIdentity ) {
+			window.netlifyIdentity.on( 'init', ( user ) => {
+				if ( !user ) {
+					window.netlifyIdentity.on( 'login', () => {
+						document.location.href = '/admin/'
+					} )
+				}
+			} )
 		}
-		});
-	}
 	</script>
+	<script src="/assets/sidenav.js"></script>
 </body>
 
 </html>
