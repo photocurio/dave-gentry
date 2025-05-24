@@ -5,11 +5,14 @@ media_folder: pics
 collections:
   - name: "pages"
     label: "Pages"
-    folder: "pages"
+    folder: "/"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subhead", name: "subhead", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Image", name: "image", widget: "image" }
-      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Background Image", name: "backgroundImg", widget: "image" }
+      - { lable: "Permalink", name: "permalink", widget: "string" }
+      - { label: "Style", name: "style", widget: "select", options: ["light", "dark"] }
+      - { label: "Layout", name: "layout", widget: "select", options: ["default", "page.html"] }
