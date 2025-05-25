@@ -9,7 +9,7 @@
   button.dropdown-btn {
     width: 100%;
     background-color: #333;
-    color: white;
+    color: #33bc33;
     font-family: Times;
     border: none;
     padding: 0.75rem;
@@ -20,7 +20,8 @@
     transition: background-color 0.3s ease;
 
     &:hover {
-      background-color: #555;
+      background-color: #444;
+      color: #d699f9;
     }
   }
 
@@ -33,7 +34,6 @@
 
     a {
       display: block;
-      color: #ddd;
       text-decoration: none;
       padding: 0.5rem 0.75rem;
       transition: color 0.3s ease;

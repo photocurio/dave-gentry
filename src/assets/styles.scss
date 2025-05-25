@@ -43,7 +43,10 @@ body {
 .dark body {
 	color: white;
 	a {
-		color: #33ff33;
+		color: #33bc33;
+		&:hover {
+			color: #d699f9;
+		}
 	}
 }
 
