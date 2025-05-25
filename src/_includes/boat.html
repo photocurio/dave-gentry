@@ -43,7 +43,10 @@
 	</header>
 	<main>
 		<section>
-			{{ content }}
+			<container>
+				{% include 'sidenav.html' %}
+				{{ content }}
+			</container>
 		</section>
 	</main>
 	<footer>
