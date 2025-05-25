@@ -34,6 +34,12 @@ body {
 	line-height: 1.5;
 }
 
+hr {
+	border: none;
+	border-bottom: 1px solid #ccc;
+	background-color: none;
+}
+
 .light body {
 	color: black;
 	a {
@@ -83,17 +89,27 @@ nav ul {
 	flex-wrap: wrap;
 	border-bottom: 1px solid #bbb;
 	border-top: 1px solid #bbb;
-	padding: .5rem 0;
+	padding: 0;
 	justify-content: space-between;
 	li {
 		text-transform: uppercase;
 		font-size: 90%;
-		padding: .2rem .5rem;
+		&:hover {
+			background-color: #333;
+			color: #d699f9;
+		}
+	}
+	a {
+		display: inline-block;
+		padding: .5rem;
 	}
 }
 
 .light nav ul li {
 	font-weight: bold;
+	&:hover {
+		background-color: #ddd;
+	}
 }
 .grey nav ul li {
 	font-weight: bold;
@@ -154,7 +170,7 @@ iframe[src*="youtube.com"]{
 	  }
 	  
 	  .featured-boats {
-		flex: 1;
+		  flex: 1;
 	  }
 	}
 }
@@ -162,18 +178,13 @@ iframe[src*="youtube.com"]{
 	max-width: 100%;
 	height: auto;
 	display: block;
-	// margin-bottom: 1rem;
 }
 .boat-catalog-header {
 	margin-bottom: 0;
-	// display: inline;
 }
 .boat-catalog-subhead {
 	margin: 0;
-	// display: inline;
 }
-
-// ...existing code...
 
 .highlight {
 	color: #fff;
@@ -181,25 +192,25 @@ iframe[src*="youtube.com"]{
 	font-weight: bold;
 	padding: 0.5rem;
 	margin: 1rem 0;
-  }
+}
   
-  figure {
+figure {
 	margin: 2rem 0;
 	
 	img {
 	  max-width: 100%;
 	  height: auto;
 	}
-  }
+}
   
-  .specs {
+.specs {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 2rem;
 	align-items: start;
-  }
+}
   
-  .page-nav {
+.page-nav {
 	display: flex;
 	gap: 2rem;
 	justify-content: center;
@@ -209,7 +220,7 @@ iframe[src*="youtube.com"]{
 	  font-weight: bold;
 	  font-size: 1.2rem;
 	}
-  }
+}
   
 /* Responsive */
 @media (max-width: 600px) {
