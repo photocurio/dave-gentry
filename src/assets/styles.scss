@@ -81,10 +81,11 @@ nav ul {
 	border-bottom: 1px solid #bbb;
 	border-top: 1px solid #bbb;
 	padding: .5rem 0;
+	justify-content: space-between;
 	li {
 		text-transform: uppercase;
 		font-size: 90%;
-		padding: .2rem .75rem;
+		padding: .2rem .5rem;
 	}
 }
 
