@@ -37,14 +37,22 @@
     a {
       display: block;
       text-decoration: none;
-      padding: 0.5rem 0.75rem;
+      padding: 0.25rem 0.5rem 0.25rem 1rem;
       transition: color 0.3s ease;
 			font-size: 0.9rem;
-			line-height: 1.3;
-
+			line-height: 1.2;
+			background-color: #ddd;
+			color: #222;
+			border-bottom: 1px solid #aaa;
       &:hover {
-        color: #d699f9;
+        color: #8e0fd7;
       }
+			&:first-child {
+				padding-top: 0.5rem;	
+			}
+			&:last-child {
+				padding-bottom: 0.5rem;
+			}
     }
 
     &.open {
