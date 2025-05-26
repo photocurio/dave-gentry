@@ -41,10 +41,12 @@
 	</header>
 	<main>
 		<section>
-			<container>
+			<div class="container">
 				{% include 'sidenav.html' %}
-				{{ content }}
-			</container>
+				<div class="featured-boats">
+					{{ content }}
+				</div>
+			</div>
 		</section>
 	</main>
 	<footer>
