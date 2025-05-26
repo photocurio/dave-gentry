@@ -1,0 +1,40 @@
+
+.company {
+	.triskelion {
+		width: 45px;
+	}
+}
+.triskelion{
+	vertical-align: bottom;
+	width: 70px;
+	height: auto;
+	margin-left: -1rem;
+}
+.dark .triskelion{
+	filter: invert(1);
+	mix-blend-mode: screen;
+}
+.grey .triskelion{
+	mix-blend-mode: multiply;
+}
+
+iframe[src*="youtube.com"]{
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+
+figure {
+	margin: 2rem 0;
+	
+	img {
+	  max-width: 100%;
+	  height: auto;
+	}
+}
+
+.boat-catalog-thumb {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}

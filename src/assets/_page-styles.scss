@@ -1,0 +1,27 @@
+
+.light body {
+	color: black;
+	a {
+		color: #338413;
+	}
+}
+.dark body {
+	color: white;
+	a {
+		color: #33bc33;
+		&:hover {
+			color: #d699f9;
+		}
+	}
+}
+
+.grey body {
+	color: black;
+	background-color: #bbb;
+	a {
+		color: #2d9c02;
+	}
+	nav ul {
+		border-color: #777
+	}
+}

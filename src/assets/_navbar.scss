@@ -1,0 +1,35 @@
+/* Navbar */
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid #bbb;
+	border-top: 1px solid #bbb;
+	padding: 0;
+	justify-content: space-between;
+	li {
+		text-transform: uppercase;
+		font-size: 90%;
+		&:hover {
+			background-color: #333;
+			color: #c56ef8;
+		}
+	}
+	a {
+		display: inline-block;
+		padding: .5rem;
+	}
+}
+
+.light nav ul li {
+	font-weight: bold;
+	&:hover {
+		background-color: #ddd;
+	}
+}
+.grey nav ul li {
+	font-weight: bold;
+}
+nav a {
+	text-decoration: none;
+}
