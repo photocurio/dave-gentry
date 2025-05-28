@@ -5,6 +5,7 @@
 		color: #338413;
 	}
 }
+
 .dark body {
 	color: white;
 	a {
@@ -13,7 +14,23 @@
 			color: #d699f9;
 		}
 	}
+	.featured-boats {
+		> a {
+			color: white;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
 }
+
+a {
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
 
 .grey body {
 	color: black;

@@ -38,3 +38,12 @@ figure {
 	height: auto;
 	display: block;
 }
+
+.featured-boats {
+	> img {
+		max-width: 100%;
+		height: auto;
+		display: block;
+		margin-bottom: 1em;
+	}
+}
