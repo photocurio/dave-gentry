@@ -2,6 +2,7 @@
   width: 100%; // Adjust as needed
   max-width: 160px; // Optional: Limit the width
   background-color: #222;
+  margin-top: 1rem;
   @media (max-width: 600px) {
     max-width: 100%; // Full width on smaller screens
   }

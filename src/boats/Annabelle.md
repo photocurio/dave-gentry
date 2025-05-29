@@ -6,6 +6,8 @@ layout: boat.html
 style: dark
 ---
 
+<img class="thumb" src="/pics/Annabelle9.jpg" alt="Annabelle">
+
 10' x 4'
 3.04m x 1.22m
 
@@ -22,3 +24,24 @@ Maximum recommended capacity is 400lbs/182kg
 New for 2016 - all plans also come with instructions on how to build a rowing-only version of the Annabelle Skiff. If you're not interested in sailing, she'll be even lighter and easier to build than the original!
 
 High quality, inexpensive sails built specifically for the Annabelle Skiff can be purchased here: ReallySimpleSails
+
+![Annabelle](/pics/Annabelle10a.jpeg)
+![Annabelle](/pics/Annabelle9999.jpeg)
+![Annabelle](/pics/Annabelle9999a.jpg)
+![Annabelle](/pics/Annabelle99999.jpeg)
+![Annabelle](/pics/Annabelle99.jpeg)
+![Annabelle](/pics/Annabelle999.jpeg)
+![Annabelle](/pics/Annabelle999999.jpeg)
+![Annabelle](/pics/chapelle%20skiff%201a.jpeg)
+#### Sailing the prototype, with an old balanced lug sail
+Clearly, she can utilize a variety of rigs.
+![Annabelle](/pics/Annabelle%206.jpeg)
+#### Rows great!
+!['Annabelles frame'](/pics/Annabelle%20frame%202a.jpeg)
+Completed frame, ready for skinning. 9oz polyester is the standard fabric we use for her, typically just coated with paint or varnish.
+
+Seating for two, right in the middle.
+Foam floatation is located under the foredeck and the seats. Oars store under the seats when not in use.
+
+
+

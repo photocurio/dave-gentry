@@ -24,26 +24,26 @@ iframe[src*="youtube.com"]{
   aspect-ratio: 16/9;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
 figure {
 	margin: 2rem 0;
-	
-	img {
-	  max-width: 100%;
-	  height: auto;
-	}
 }
 
 .boat-catalog-thumb {
-	max-width: 100%;
-	height: auto;
 	display: block;
 }
 
 .featured-boats {
-	> img {
-		max-width: 100%;
-		height: auto;
+	img {
 		display: block;
 		margin-bottom: 1em;
+		&.thumb{
+			max-width: 400px;
+			display: block;
+			margin: 0 auto;
+		}
 	}
 }
