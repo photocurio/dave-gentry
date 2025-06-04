@@ -6,7 +6,7 @@ layout: boat.html
 style: dark
 ---
 
-<img class="thumb" src="/pics/Annabelle9.jpg" alt="Annabelle">
+<img class="thumb" src="/images/Annabelle9.jpg" alt="Annabelle">
 
 10' x 4'
 3.04m x 1.22m
