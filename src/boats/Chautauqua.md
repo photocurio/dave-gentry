@@ -40,11 +40,11 @@ All in all, Chautauqua is a fantastic sailboat that is easy to build, easy to us
 
 Order plans and kits at this [Duckworks](https://duckworks.com/chautauqua-printed-plans/) page.
 
-![Chautauqua](/pics/Chautauqua%20a.jpg)
-![Chautauqua](/pics/Chautauqua%20b.jpg)
-![Chautauqua](/pics/Chautauqua%20c.jpg)
-![Chautauqua](/pics/Chautauqua9.jpg)
-![Chautauqua](/pics/Chautauqua9a.jpg)
-![Chautauqua](/pics/Chautauqua97.jpg)
+![Chautauqua](/images/Chautauqua%20a.jpg)
+![Chautauqua](/images/Chautauqua%20b.jpg)
+![Chautauqua](/images/Chautauqua%20c.jpg)
+![Chautauqua](/images/Chautauqua9.jpg)
+![Chautauqua](/images/Chautauqua9a.jpg)
+![Chautauqua](/images/Chautauqua97.jpg)
 
 

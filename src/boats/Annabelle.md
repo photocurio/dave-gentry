@@ -25,19 +25,19 @@ New for 2016 - all plans also come with instructions on how to build a rowing-on
 
 High quality, inexpensive sails built specifically for the Annabelle Skiff can be purchased here: ReallySimpleSails
 
-![Annabelle](/pics/Annabelle10a.jpeg)
-![Annabelle](/pics/Annabelle9999.jpeg)
-![Annabelle](/pics/Annabelle9999a.jpg)
-![Annabelle](/pics/Annabelle99999.jpeg)
-![Annabelle](/pics/Annabelle99.jpeg)
-![Annabelle](/pics/Annabelle999.jpeg)
-![Annabelle](/pics/Annabelle999999.jpeg)
-![Annabelle](/pics/chapelle%20skiff%201a.jpeg)
+![Annabelle](/images/Annabelle10a.jpeg)
+![Annabelle](/images/Annabelle9999.jpeg)
+![Annabelle](/images/Annabelle9999a.jpg)
+![Annabelle](/images/Annabelle99999.jpeg)
+![Annabelle](/images/Annabelle99.jpeg)
+![Annabelle](/images/Annabelle999.jpeg)
+![Annabelle](/images/Annabelle999999.jpeg)
+![Annabelle](/images/chapelle%20skiff%201a.jpeg)
 #### Sailing the prototype, with an old balanced lug sail
 Clearly, she can utilize a variety of rigs.
-![Annabelle](/pics/Annabelle%206.jpeg)
+![Annabelle](/images/Annabelle%206.jpeg)
 #### Rows great!
-!['Annabelles frame'](/pics/Annabelle%20frame%202a.jpeg)
+!['Annabelles frame'](/images/Annabelle%20frame%202a.jpeg)
 Completed frame, ready for skinning. 9oz polyester is the standard fabric we use for her, typically just coated with paint or varnish.
 
 Seating for two, right in the middle.
