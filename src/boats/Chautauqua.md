@@ -3,6 +3,7 @@ permalink: boats/Chautauqua.html
 title: Chautauqua Sailing Canoe
 layout: boat.html
 style: dark
+menu_open: Sailboats
 ---
 <p class="subhead">(shuh-TAW-kwuh)</p>
 

@@ -3,30 +3,43 @@
 		const dropdownButtons = document.querySelectorAll( ".dropdown-btn" )
 
 		dropdownButtons.forEach( ( button ) => {
+			const dropdown = button.nextElementSibling
+
+			// Open if it has the 'open' class (initial state)
+			if ( button.classList.contains( "open" ) ) {
+				dropdown.classList.add( "open" )
+				dropdown.style.maxHeight = dropdown.scrollHeight + "px"
+			}
+
 			button.addEventListener( "click", () => {
-				// Close all dropdown containers instantly
-				const allDropdowns = document.querySelectorAll( ".dropdown-container" )
-				allDropdowns.forEach( ( dropdown ) => {
-					if ( dropdown !== button.nextElementSibling ) {
-						dropdown.style.maxHeight = null // Collapse instantly
+				// Close all dropdowns except the one being toggled
+				dropdownButtons.forEach( ( btn ) => {
+					const dd = btn.nextElementSibling
+					if ( btn !== button ) {
+						btn.classList.remove( "open" )
+						dd.classList.remove( "open" )
+						dd.style.maxHeight = null
 					}
 				} )
 
-				// Toggle the dropdown container below the clicked button
-				const dropdown = button.nextElementSibling
-				if ( dropdown.style.maxHeight ) {
-					dropdown.style.maxHeight = null // Collapse instantly
+				// Toggle the clicked dropdown
+				const isOpen = button.classList.contains( "open" )
+				if ( isOpen ) {
+					button.classList.remove( "open" )
+					dropdown.classList.remove( "open" )
+					dropdown.style.maxHeight = null
 				} else {
-					dropdown.style.maxHeight = dropdown.scrollHeight + "px" // Expand with animation
+					button.classList.add( "open" )
+					dropdown.classList.add( "open" )
+					dropdown.style.maxHeight = dropdown.scrollHeight + "px"
 				}
 			} )
 		} )
 	} );
 </script>
 <div class="sidenav">
-	<button class="dropdown-btn">Sailboats
-	</button>
-	<div class="dropdown-container">
+	<button class="dropdown-btn{% if menu_open == 'Sailboats' %} open{% endif %}">Sailboats</button>
+	<div class="dropdown-container{% if menu_open == 'Sailboats' %} open{% endif %}">
 		<a href="/boats/Melonseed.html">Light Melonseed</a>
 		<a href="/boats/Chautauqua.html">Chautauqua sailing canoe</a>
 		<a href="/boats/Annabelle.html">Annabelle Skiff</a>
@@ -34,9 +47,8 @@
 		<a href="/boats/splinter.html">Splinter outrigger</a>
 		<a href="/boats/Chuckanut17.html">Chuckanut 17 kayak</a>
 	</div>
-	<button class="dropdown-btn">Rowboats
-	</button>
-	<div class="dropdown-container">
+	<button class="dropdown-btn{% if menu_open == 'Rowboats' %} open{% endif %}">Rowboats</button>
+	<div class="dropdown-container{% if menu_open == 'Rowboats' %} open{% endif %}">
 		<a href="/boats/Ruth.html">Ruth</a>
 		<a href="/boats/ShenandoahWhitehall.html">Shenandoah Whitehall</a>
 		<a href="/boats/RacerX.html">Racer X</a>
@@ -47,24 +59,21 @@
 		<a href="/boats/Chuckanut17.html">Chuckanut 17 kayak</a>
 		<a href="/boats/BigAloha.html">Big Aloha SUP</a>
 	</div>
-	<button class="dropdown-btn">Kayaks
-	</button>
-	<div class="dropdown-container">
+	<button class="dropdown-btn{% if menu_open == 'Kayaks' %} open{% endif %}">Kayaks</button>
+	<div class="dropdown-container{% if menu_open == 'Kayaks' %} open{% endif %}">
 		<a href="/boats/Chuckanut12.html">Chuckanuts 10,12 and 12S</a>
 		<a href="/boats/Chuckanut15.html">Chuckanut 15</a>
 		<a href="/boats/Chuckanut17.html">Chuckanut 17 kayak</a>
 		<a href="/boats/Kidyak.html">Kidyak</a>
 	</div>
-	<button class="dropdown-btn">Sea Kayaks
-	</button>
-	<div class="dropdown-container">
+	<button class="dropdown-btn{% if menu_open == 'Sea Kayaks' %} open{% endif %}">Sea Kayaks</button>
+	<div class="dropdown-container{% if menu_open == 'Sea Kayaks' %} open{% endif %}">
 		<a href="/boats/Mobjack_Bay.html">Mobjack Bay</a>
 		<a href="/boats/DiskoBay.html">Disko Bay and Disko Dreadnought</a>
 		<a href="/boats/BaffinBay.html">Baffin Bay</a>
 	</div>
-	<button class="dropdown-btn">Canoes
-	</button>
-	<div class="dropdown-container">
+	<button class="dropdown-btn{% if menu_open == 'Canoes' %} open{% endif %}">Canoes</button>
+	<div class="dropdown-container{% if menu_open == 'Canoes' %} open{% endif %}">
 		<a href="/boats/New_Wee_Lassie.html">Wee Lassie solo canoe</a>
 		<a href="/boats/Wicomico.html">Great Wicomico</a>
 		<a href="/boats/PH13.html">PH13 solo canoe</a>
@@ -73,17 +82,15 @@
 		<a href="/boats/splinter.html">Splinter outrigger</a>
 		<a href="/boats/Chautauqua.html">Chautauqua sailing canoe</a>
 	</div>
-	<button class="dropdown-btn">Paddleboards
-	</button>
-	<div class="dropdown-container">
+	<button class="dropdown-btn{% if menu_open == 'Paddleboards' %} open{% endif %}">Paddleboards</button>
+	<div class="dropdown-container{% if menu_open == 'Paddleboards' %} open{% endif %}">
 		<a href="/boats/Aloha.html">Aloha</a>
 		<a href="/boats/BigAloha.html">Big Aloha</a>
 		<a href="/boats/Lanui.html">Lanui</a>
 		<a href="/boats/Boardyak.html">Boardyak</a>
 	</div>
-	<button class="dropdown-btn">Motorboats
-	</button>
-	<div class="dropdown-container">
+	<button class="dropdown-btn{% if menu_open == 'Motorboats' %} open{% endif %}">Motorboats</button>
+	<div class="dropdown-container{% if menu_open == 'Motorboats' %} open{% endif %}">
 		<a href="/boats/Indian_Creek.html">Indian Creek motor canoe</a>
 	</div>
 </div>
