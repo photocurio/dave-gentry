@@ -6,6 +6,7 @@ const path = require( "path" )
 module.exports = ( config ) => {
 	config.addPassthroughCopy( 'src/images' )
 	config.addPassthroughCopy( 'src/admin' )
+	config.addPassthroughCopy( 'src/favicon.jpg' )
 	config.addTemplateFormats( "scss" )
 	config.addExtension( "scss", {
 		outputFileExtension: "css",
