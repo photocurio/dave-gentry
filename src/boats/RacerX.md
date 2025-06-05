@@ -3,6 +3,7 @@ layout: boat.html
 permalink: /boats/RacerX.html
 title: Racer X
 style: dark
+menu_open: Rowboats
 ---
 
 ### Open Water Rowing and Racing Shell

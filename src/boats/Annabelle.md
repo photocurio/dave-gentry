@@ -4,6 +4,7 @@ title: Annabelle
 subhead: A skiff for sailing and rowing
 layout: boat.html
 style: dark
+menu_open: Sailboats
 ---
 
 <img class="thumb" src="/images/Annabelle9.jpg" alt="Annabelle">
