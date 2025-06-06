@@ -2,7 +2,7 @@ const sitemap = require( '@quasibit/eleventy-plugin-sitemap' )
 const sass = require( 'sass' )
 const path = require( 'path' )
 
-module.exports = ( config ) => {
+module.exports = function ( config ) {
 	config.addPassthroughCopy( 'src/images' )
 	config.addPassthroughCopy( 'src/admin' )
 	config.addPassthroughCopy( 'src/favicon.jpg' )
@@ -11,14 +11,19 @@ module.exports = ( config ) => {
 		outputFileExtension: 'css',
 		useLayouts: false,
 		compile: function ( inputContent, inputPath ) {
+
 			let parsed = path.parse( inputPath )
+			
 			if ( parsed.name.startsWith( '_' ) ) return
 
-			let result = sass.compileString( inputContent, {
-				loadPaths: ['src/assets']
-			} )
-			this.addDependencies( inputPath, result.loadedUrls )
-			return () => result.css
+			return () => {
+				let result = sass.compileString(inputContent, {
+					loadPaths: [ parsed.dir ]
+				});
+
+				return result.css;
+			};
+
 		}
 	} )
 
