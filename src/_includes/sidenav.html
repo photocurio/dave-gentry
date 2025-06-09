@@ -35,8 +35,22 @@
 				}
 			} )
 		} )
+		// Hamburger toggle
+		const hamburger = document.getElementById( "hamburger-btn" )
+		const sidenav = document.querySelector( ".sidenav" )
+		if ( hamburger && sidenav ) {
+			hamburger.addEventListener( "click", () => {
+				sidenav.classList.toggle( "open" )
+			} )
+		}
 	} );
 </script>
+
+<button class="hamburger" id="hamburger-btn" aria-label="Open menu">
+	<span></span>
+	<span></span>
+	<span></span>
+</button>
 <div class="sidenav">
 	<button class="dropdown-btn{% if menu_open == 'Sailboats' %} open{% endif %}">Sailboats</button>
 	<div class="dropdown-container{% if menu_open == 'Sailboats' %} open{% endif %}">

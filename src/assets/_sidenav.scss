@@ -1,8 +1,28 @@
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+.hamburger span {
+  display: block;
+  height: 4px;
+  width: 28px;
+  margin: 3px auto;
+  background: white;
+  border-radius: 2px;
+  transition: 0.3s;
+}
 .sidenav {
   width: 100%; // Adjust as needed
   max-width: 160px; // Optional: Limit the width
   background-color: #222;
-  margin-top: 1rem;
+  // margin-top: 1rem;
   @media (max-width: 600px) {
     max-width: 100%; // Full width on smaller screens
   }
@@ -59,5 +79,23 @@
     &.open {
       max-height: 500px; // Set a maximum height large enough for the content
     }
+  }
+}
+
+/* Hide sidenav and show hamburger on mobile */
+@media (max-width: 800px) {
+  .sidenav {
+		max-height: 0;
+		overflow: hidden;
+		opacity: 0;
+    transition: max-height 0.5s cubic-bezier(0.4,0,0.2,1), opacity 0.4s;
+  }
+  .sidenav.open {
+    display: block;
+		opacity: 1;
+		max-height: 640px;
+  }
+  .hamburger {
+    display: flex;
   }
 }
