@@ -75,12 +75,12 @@ With plans, you get:
 - An appendix full of useful building hints, epoxy information, and tips for care and usage. 
 - And  . . . ME. I am just an email away to answer questions, solve problems or give advice.
 
-
+Order plans <a href="https://duckworks.com/racerx-plans-pdf/">HERE</a>.
 
 Whether you are looking for a workout, or looking to train and win,
 Racer X could well be the boat for you.
 
-Contact
+*Contact*
 Dave for frame kits
 GentryCustomBoats@yahoo.com
 
