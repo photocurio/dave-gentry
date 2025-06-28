@@ -16,12 +16,12 @@ module.exports = function ( config ) {
 			// Eleventy expects a function that returns the compiled content
 			// This allows for deferred compilation and caching
 			return () => {
-				let result = sass.compileString(inputContent, {
-					loadPaths: [ parsed.dir ]
-				});
+				let result = sass.compileString( inputContent, {
+					loadPaths: [parsed.dir]
+				} )
 
-				return result.css;
-			};
+				return result.css
+			}
 		}
 	} )
 
